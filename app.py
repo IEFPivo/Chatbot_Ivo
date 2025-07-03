@@ -27,7 +27,7 @@ def obter_resposta(texto: str) -> str:
         return 'Olá tudo bem!'
     if comando == 'como estás':
         return 'Estou bem, obrigado!'
-    if comando == 'como te chamas?':
+    if comando == 'Como te chamas?':
         return 'O meu nome é Bot :)'
     if comando == 'tempo':
         return 'Está um dia de sol!'
@@ -69,7 +69,7 @@ def chat() -> None:
     print('Bem-vindo ao ChatBot!')
     print('Escreva "bye" para sair do chat.')
     nome = input('Bot: Como te chamas? ')
-    print(f'Bot: Olá, {nome}! Como te posso ajudar?')
+    print(f'Bot: Olá, {nome}! Como posso ajudar?')
 
     while True:
         user_input = input('Tu: ')
