@@ -55,12 +55,12 @@ def obter_resposta(texto: str) -> str:
         return 'A capital de Portugal é Lisboa.'
     if 'qual o teu filme favorito' in comando:
         return 'Gosto muito de Top Gun!'
-    if 'qual é o sentido da vida' in comando:
-        return '42. ;)'
+    if 'Es adepto de algum clube de futebol' in comando:
+        return 'FC Porto. ;)'
     if 'tens sentimentos' in comando:
         return 'Ainda não... mas estou a aprender!'
-    if 'programar' in comando:
-        return 'Programar é transformar ideias em código. Muito fixe!'
+    if 'O que é programar' in comando:
+        return 'Programar é transformar ideias em código.'
 
     return f'Desculpa, não entendi a questão: {texto}'
 
