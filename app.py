@@ -1,6 +1,8 @@
 import os
 from datetime import datetime
 
+
+
 # 6.1º 
 # if len(sys.argv) < 2:
 #     print("É necessário escrever uma mensagem para o chatbot")
@@ -12,6 +14,9 @@ from datetime import datetime
 #     print("Adeus! Até à próxima.")
 # else:
 #     print("Desculpa, não entendi.")
+
+
+
 
 # 6.2
 def obter_resposta(texto: str) -> str:
