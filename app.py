@@ -54,7 +54,7 @@ def obter_resposta(texto: str) -> str:
     if 'qual é a capital de portugal' in comando:
         return 'A capital de Portugal é Lisboa.'
     if 'qual o teu filme favorito' in comando:
-        return 'Gosto muito de Wall-E!'
+        return 'Gosto muito de Top Gun!'
     if 'qual é o sentido da vida' in comando:
         return '42. ;)'
     if 'tens sentimentos' in comando:
