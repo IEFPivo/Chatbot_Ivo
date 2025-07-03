@@ -34,6 +34,8 @@ def obter_resposta(texto: str) -> str:
         return f'Hoje é dia: {datetime.now():%d-%m-%Y}'
 
     # 6.2º - Novas interações 
+    
+    
     if 'obrigado' in comando or 'obrigada' in comando:
         return 'De nada! Sempre às ordens.'
     if 'onde estás' in comando:
